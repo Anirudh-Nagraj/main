@@ -1,4 +1,4 @@
-//Add a 3rd level of dropdown
+<script>
   $(function(){
     if($(window).width() < 768){
       $(".navbar-nav li span.trigger").on("click",function(e){
@@ -24,3 +24,4 @@
         
     }
   });
+</script>
