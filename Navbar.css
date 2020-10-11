@@ -22,7 +22,7 @@
     span.selector {
       display:none!important;
     }
-    .dropdown-menu {
+	    .dropdown-menu {
     position: absolute;
     z-index: 1000;
     float: left;
@@ -32,10 +32,11 @@
     font-size: 14px;
     text-align: left; 
   }
-  >li {
+  .li {
     position: relative;
     display: block;
   }
+  
   .subnav.dropdown-menu {    
     .subnav.dropdown-menu {
       background:none;
@@ -49,12 +50,12 @@
   .navbar-nav li.dropdown:hover > ul.dropdown-menu {
     display: block;
   }
-  .open > .dropdown-menu,
-  .open > .dropdown-menu .open .dropdown-menu {
+  .open  .dropdown-menu,
+  .open  .dropdown-menu .open .dropdown-menu {
       display: none;
   }
-  .open:hover > .dropdown-menu,
-  .open:hover > .dropdown-menu .open:hover .dropdown-menu {
+  .open:hover .dropdown-menu,
+  .open:hover .dropdown-menu .open:hover .dropdown-menu {
       display: block;
   }
 }
