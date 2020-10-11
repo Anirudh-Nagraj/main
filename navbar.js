@@ -1,5 +1,9 @@
 <script>
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+>>>>>>> Test
   $(function(){
     if($(window).width() < 768){
       $(".navbar-nav li span.trigger").on("click",function(e){
@@ -25,7 +29,11 @@
         
     }
   });
+<<<<<<< HEAD
 =======
+=======
+  
+>>>>>>> Test
 $( document ).ready(function() {
 
     var opcionesnav = $('.navoption').length;
