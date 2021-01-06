@@ -288,12 +288,13 @@ h1, h2, h3, h4, h5, h6 {
   letter-spacing: 1px;
 }
 
-#hero .social-links {
-  margin-top: 30px;
+.social-links {
+  margin-top: 20px;
+  text-align:center;
 }
 
-#hero .social-links a {
-  font-size: 24px;
+.social-links a {
+  font-size: 36px;
   display: inline-block;
   color: #45505b;
   line-height: 1;
@@ -301,7 +302,7 @@ h1, h2, h3, h4, h5, h6 {
   transition: 0.3s;
 }
 
-#hero .social-links a:hover {
+.social-links a:hover {
   color: #0563bb;
 }
 
