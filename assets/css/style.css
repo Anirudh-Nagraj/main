@@ -1169,3 +1169,10 @@ section {
 #footer .credits {
   font-size: 13px;
 }
+
+/* Justification of text */
+.justified
+{
+	text-align: justify;
+}
+
