@@ -1180,8 +1180,8 @@ section {
 .introbox
 {
 	width:100%;
-	background-color:#F8F8F8;
-	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	background-color:#fffff0;
+	box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 4px 0 rgba(0, 0, 0, 0.19);
 }
 
 .projectbox
@@ -1189,4 +1189,26 @@ section {
 	color:blue;
 	margin-top:-10px;
 	margin-right:10px;
+	text-align:center;
 }
+
+.avatar
+{
+	width:auto;
+	height:150px;
+	align-content:right;
+	
+}
+
+.introtext
+{	
+	vertical-align:middle;
+	font-size:24px;
+	margin-top:20px;
+}
+
+.prototype-introduction
+{
+	padding-bottom:20px;
+}
+
