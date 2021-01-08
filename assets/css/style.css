@@ -325,7 +325,7 @@ h1, h2, h3, h4, h5, h6 {
 # Sections General
 --------------------------------------------------------------*/
 section {
-  padding: 60px 0;
+  padding: 40px 0;
   overflow: hidden;
 }
 
@@ -1180,7 +1180,7 @@ section {
 .introbox
 {
 	width:100%;
-	background-color:#fffff0;
+	background-color:#fefdee;
 	box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 4px 0 rgba(0, 0, 0, 0.19);
 }
 
@@ -1195,15 +1195,14 @@ section {
 .avatar
 {
 	width:auto;
-	height:150px;
-	align-content:right;
-	
+	height:200px;
+	vertical-align:middle;
 }
 
 .introtext
 {	
 	vertical-align:middle;
-	font-size:24px;
+	font-size:20px;
 	margin-top:20px;
 }
 
@@ -1212,3 +1211,27 @@ section {
 	padding-bottom:20px;
 }
 
+.titlebox
+{
+	height:500px;
+	width:auto;
+}
+
+.portfolio-title1
+{
+	padding-top:150px;
+	vertical-align:middle;
+}
+
+.irqhighlight
+{
+  border-radius: 1em 0 1em 0;
+  text-shadow: 1px 1px 1px #fff;
+  background-image: 
+    linear-gradient(-100deg, 
+      rgba(255,250,150,0.8),
+      rgba(255,250,150,0.8) 100%, 
+      rgba(255,250,150,0.8)
+    );
+}
+    
