@@ -1242,3 +1242,14 @@ section {
 	vertical-align:middle;
 	margin-left:100px;
 }
+
+.light
+{
+	background-color: #0563bb !important;
+}
+
+.whitecolor
+{
+	color:#ffffff;
+}
+
