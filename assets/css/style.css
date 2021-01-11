@@ -326,7 +326,6 @@ h1, h2, h3, h4, h5, h6 {
 --------------------------------------------------------------*/
 section {
   padding: 40px 0;
-  overflow: hidden;
 }
 
 .section-title {
@@ -1180,7 +1179,7 @@ section {
 .introbox
 {
 	width:100%;
-	background-color:#fefdee;
+	background-color:#fff0ff;
 	box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 4px 0 rgba(0, 0, 0, 0.19);
 }
 
@@ -1243,4 +1242,3 @@ section {
 	vertical-align:middle;
 	margin-left:100px;
 }
-    
