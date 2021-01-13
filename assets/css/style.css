@@ -1373,3 +1373,22 @@ align-content:center;
 display:flex;
 margin:auto;
 }
+
+.avatar7
+{
+	width:90%;
+align-content:center;
+display:flex;
+margin:auto;
+}
+
+.listitems
+{
+	color:#fff;
+	font-size:24px;
+}
+
+#insights
+{
+	background-color:#8DB6CD;
+}
