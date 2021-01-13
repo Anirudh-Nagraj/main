@@ -1377,9 +1377,11 @@ margin:auto;
 .avatar7
 {
 	width:90%;
-align-content:center;
-display:flex;
-margin:auto;
+	align-content:center;
+	display:flex;
+	margin:auto;
+	padding-top:20px;
+	padding-bottom:20px;
 }
 
 .listitems
@@ -1391,4 +1393,15 @@ margin:auto;
 #insights
 {
 	background-color:#8DB6CD;
+	font-family:'SF Pro Display';
+}
+
+.avatar8
+{
+	width:90%;
+	align-content:center;
+	display:flex;
+	margin:auto;
+	padding-top:20px;
+	padding-bottom:20px;
 }
