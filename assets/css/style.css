@@ -1404,3 +1404,16 @@ margin:auto;
 	margin:auto;
 	padding-bottom:20px;
 }
+
+.irqhighlight2
+{
+	 
+  text-shadow: 1px 1px 1px #fff;
+  background-image: 
+    linear-gradient(-100deg, 
+      rgba(21,166,219),
+      rgba(21,166,219) 100%, 
+      rgba(21,166,219)
+    );
+	color:white;
+}
