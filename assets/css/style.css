@@ -1473,3 +1473,26 @@ width:60%;
 display:block;
 margin:auto;
 }
+
+#insights2
+{
+	background-color:#8DB6CD;
+}
+
+#painpoints
+{
+	background-color:black;
+}
+
+.listitems
+{
+	margin-left:20px;
+	padding-bottom:40px;
+}
+
+.headingtitle2
+{
+	color:#fff;
+	margin-left:20px;
+	padding-top:40px;
+}
