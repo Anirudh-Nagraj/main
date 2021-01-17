@@ -250,6 +250,7 @@ h1, h2, h3, h4, h5, h6 {
   background: url("/assets/img/Personal/hero.png") top right no-repeat;
   background-size: cover;
   position: relative;
+  background-color:#fff381;
 }
 
 @media (min-width: 992px) {
@@ -1154,7 +1155,7 @@ background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, F
 #footer .social-links a {
   font-size: 18px;
   display: inline-block;
-  background: #0563bb;
+  background: #7AC5CD;
   color: #fff;
   line-height: 1;
   padding: 8px 0;
