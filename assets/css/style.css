@@ -1263,12 +1263,17 @@ background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, F
 
 .light
 {
-	background-color: #0563bb !important;
+	background-color: #9BC4E2 !important;
+	-webkit-box-shadow: 0 8px 6px -6px black;
+	   -moz-box-shadow: 0 8px 6px -6px black;
+	        box-shadow: 0 8px 6px -6px black;
 }
 
 .whitecolor
 {
-	color:#ffffff;
+	font-family: 'Roboto';
+	padding-left:20px;
+	color:#fff;
 }
 
 .horizontalline {
@@ -1549,3 +1554,11 @@ margin:auto;
 	color:#000;
 }
 
+.object
+{
+	object-fit: contain;
+	max-width:100%;
+max-height:100%;
+width:50px;
+height:auto;
+}
