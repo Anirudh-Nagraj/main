@@ -1264,10 +1264,10 @@ background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, F
 
 .light
 {
-	background-color: #9BC4E2 !important;
-	-webkit-box-shadow: 0 8px 6px -6px black;
-	   -moz-box-shadow: 0 8px 6px -6px black;
-	        box-shadow: 0 8px 6px -6px black;
+	background-color: #BCD2EE !important;
+	-webkit-box-shadow: 0 4px 1px -6px black;
+	   -moz-box-shadow: 0 4px 1px -6px black;
+	        box-shadow: 0 4px 1px -6px black;
 }
 
 .whitecolor
@@ -1562,4 +1562,5 @@ margin:auto;
 max-height:100%;
 width:50px;
 height:auto;
+margin-left:60px;
 }
