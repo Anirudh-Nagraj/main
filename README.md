@@ -1,5 +1,8 @@
 ### Hi there 👋
 
+This has the contents of my website. Done using a bootstrap theme. Hope you enjoy it! thanks
+
+
 <!--
 **Anirudh-Nagraj/anirudh-nagraj** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
