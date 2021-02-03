@@ -1214,7 +1214,7 @@ background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, F
 .introtext
 {	
 	vertical-align:middle;
-	font-size:20px;
+	font-size:18px;
 	margin-top:20px;
 }
 
@@ -1362,7 +1362,7 @@ display:flex;
 {
 	display: flex;
   align-items: center;
-	font-size:20px;
+	font-size:18px;
 	margin-top:80px;
 }
 
@@ -1374,7 +1374,7 @@ display:flex;
 .researchtext1
 {
 	display: flex;
-	font-size:20px;
+	font-size:18px;
 	margin-top:40px;
 }
 
