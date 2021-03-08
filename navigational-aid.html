@@ -31,7 +31,24 @@
 </head>
 
 <body>
-<nav class="navbar sticky-top  navbar-expand-lg navbar-light light">
+
+<button type="button" class="mobile-nav-toggle d-xl-none"><i class="icofont-navigation-menu"></i></button>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="d-flex flex-column justify-content-center">
+
+    <nav class="nav-menu">
+      <ul>
+        <li class="active"><a href="#hero-page"><i class='bx bxs-right-arrow-square'></i> <span>Introduction</span></a></li>
+        <li><a href="#project"><i class='bx bxs-megaphone'></i><span>Overview</span></a></li>	
+        <li><a href="#research"><i class="bx bx-book-content"></i> <span>Research</span></a></li>
+		<li><a href="#design"><i class='bx bx-webcam' ></i></i> <span>Design</span></a></li>
+        <!-- <li><a href="#contact"><i class="bx bx-envelope"></i> <span>Contact</span></a></li> -->
+      </ul>
+    </nav><!-- .nav-menu -->
+
+  </header>
+<nav class="navbar bg-transparent navbar-expand-lg navbar-light light">
   <a class="navbar-brand" href="index.html"><img class="object" src="assets/img/Personal/Logo.png"></a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
@@ -63,63 +80,75 @@
   <main>
 
     <!-- ======= Portfolio Details ======= -->
-    <section id="portfolio-details" class="portfolio-details mygradient">
-      <div class="container herosection" data-aos="fade-up">
-
-        <div class="row">
-
-          <div class="col-lg-8 d-flex align-items-center">
-            <h1 class="portfolio-title1">Navigational Aid for runners who are blind - TRIDENT</h1>
-            
-          </div>
-
-          <div class="col-lg-4 portfolio-info introbox">
-            <h3 class="projectbox"><b>PROJECT INFORMATION</b></h3>
-            <ul>
-              <li><strong>Categories</strong>: Accessibility, Wearable Technology, User-Centered Design</li>
-              <li><strong>User Base</strong>: Runners who are blind</li>
-              <li><strong>Project Timeline</strong>: 2020 - Present</li>
-              <li><strong>Team Members</strong>: 4 students and 1 faculty </a></li>
-			  <li><strong>My Role</strong>: Lead User researcher and prototype developer</a></li>
-            </ul>
-
-            <p class="justified">
-             <b>TRIDENT</b> stands for Tri-Positional Detection and Navigational Technology. The key features of the system include enhanced awareness of surroundings, detection of obstacles above and below the waist, modes for long and short range detection and choice of output. These features have been determined from interviews conducted with blind joggers and runners.
-            </p>
-          </div>
-
-        </div>
+    <section id="hero-page" class="d-flex flex-column justify-content-center">
+		<div class="container" data-aos="zoom-in" data-aos-delay="100">
+      <h1>Navigational Aid for runners who are blind - TRIDENT</h1>
+       </div>
 
       </div>
     </section><!-- End Portfolio Details -->
 	
-	<!-- ======= INTRODUCTION Details ======= -->
-	<section>
+	<section id="project" class="about">
       <div class="container" data-aos="fade-up">
-	<h2 class="portfolio-title"><b>HELPING Santiago</b></h2>
-		  <div class ="row">
-		  <div class ="col-md-2">
-		  <img src="assets/img/Personal/avatar1.png" class="img-fluid avatar" alt="">
+
+        <div class="section-title">
+          <h2>Overview</h2>
+          <p class="justified text-aria">
+		  As a research assistant at the university, I worked on this project to develop a prototype for runners who are blind. This was done in collaboration with another university and a large automobile manufacturer as part of the <b>Mobility for All</b> project. Currently, we are evaluating the prototype created.</p>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-4">
+            <img src="assets/img/Personal/prototype2.jpg" class="img-fluid" alt="">
           </div>
-		  <div class="col-md-10">
+          <div class="col-lg-8 pt-4 pt-lg-0 content">
+            <p class="justified"><ul>
+              <li><strong>Categories</strong>: Accessibility, Wearable Technology, User-Centered Design</li>
+              <li><strong>User Base</strong>: Runners who are blind</li>
+              <li><strong>Project Timeline</strong>: 2020 - Present</li>
+              <li><strong>Team Members</strong>: 4 students and 1 faculty </a></li>
+			  
+            </ul>
+			</p>
+			<h3> About the Prototype</h3>
+            <p class="justified">
+              <b>TRIDENT</b> stands for Tri-Positional Detection and Navigational Technology. The key features of the system include enhanced awareness of surroundings, detection of obstacles above and below the waist, modes for long and short range detection and choice of output. These features have been determined from interviews conducted with blind joggers and runners.
+            </p>
+          </div>
+		  <div class="content">
+		  <h3>My Role</h3>
+		  <p class="justified text-aria"> As the main user researcher and one of two people who built the device, I successfully built a prototype using the insights and data I collected from generative research conducted initially.  </p>
+		  <h3>Goals</h3>
+            <p class="justified text-aria">
+              Dealing with a niche audience made us go beyond the normal research and look in depth for solutions more than one. The end goal? Building an effective and efficient prototype that the users can wear while running. Qualitative research enabled us to look at the major pain-points, build a user-friendly device that enables the runner to avoid obstacles in their path.
+			  </div>
+        </div>
+      </div>
+    </section>
+	
+	<!-- ======= INTRODUCTION Details ======= -->
+	
+	<section id="project" class="about">
+
+        <div class="section-title">
+      <div class="container" data-aos="fade-up">
+	<h2 class="portfolio-title">The project</h2>
+		  
 		  <p class="justified">
-            <span class = "introtext"> Meet <b>Santiago</b>, a 38 year old runner who is <span>visually impaired. He wants a device that can help him detect obstacles while running. </span> </p>
-			<span class = "introtext"> His main problem is with moving obstacles and ones at head height. He finds it hard to concentrate on the path because of the obstacles. To alleviate some of his problems, our team at the University of Maryland, Baltimore County decided to build a device for him through the <span class="irqhighlight"> user centered approach </span>. The project was done under the watchful eye of Dr.Ravi Kuber. </span> </p>
+            <span class = "introtext"> From initial discussions, we observed that the main problems arise when obstacles with moving obstacles and ones at head height. Often, they find it hard to concentrate on the path because of the obstacles. To alleviate some of these standing problems, our team at the University of Maryland, Baltimore County decided to build a device for blind runners through the <span class="irqhighlight"> user centered approach </span>. The project was done under the watchful eye of Dr.Ravi Kuber. </span> </p>
+			
           </div>
 		</div>
-        </div>
     </section><!-- End Portfolio Details -->
 	
 	<!-- ======= Requirements Details ======= -->
-	<section id="requirements">
+	<section class="about">
       <div class="container" data-aos="fade-up">
-          <div class="horizontalline1"></div>
 		  <div>
-          <h2 class="prototype-introduction" id="requirements"><b>So what are Santiago's base requirements?</b></h2>
+          <h2 class="header-aria">Base Requirements</h2>
           </div>
 		  <p class="justified">
-            <span class = "introtext"> Santiago wants a device that relies on haptics and uses sensors to detect obstacles. He also wants it to be non-invasive and portable so that it does not hinder his run.</span> </p>
-		  <div class="horizontalline"></div>
+            <span class = "text-aria"> Their base requirements is that they want a device that relies on haptics and uses sensors to detect obstacles. In addition to that, the requirements point to the devices being non-invasive and portable so that it does not hinder their run in any way possible.</span> </p>
 		</div> 
 	</section>
 	
@@ -128,27 +157,34 @@
 	<!-- ======= Requirements Details ======= -->
 	<section>
       <div class="container" data-aos="fade-up">
-          <h2><b>Assumptions</b></h2> 
+          <h2 class="header-aria">Assumptions</h2> 
 		  <p class="justified">
-            <span class = "introtext"> We made some assumptions before the team started the whiteboarding process. Some of the assumptions varied from the runners like Santiago running regularly, using tethers while running, using existing technology, finding technology usage difficult while running, etc.,</span> </p>
+            <span class = "text-aria"> We made some assumptions before the team started the whiteboarding process. Some of the assumptions varied from the runners like Santiago running regularly, using tethers while running, using existing technology, finding technology usage difficult while running, etc.,</span> </p>
 		</div>
     </section>
 	
 	<section>
       <div class="container" data-aos="fade-up">
           <div>
-          <h2><b>Research Questions</b></h2>
+          <h2 class="header-aria">Research Questions</h2>
           </div>
 		  <p class="justified">
-            <span class = "introtext"> Santiago gave his requirements, now we had a job on our hands. The time had come to create a list of <span class="irqhighlight">initial research questions</span>. Each member of the team came up with list of research questions and compiled later.</span> </p>
-			<p><span class="typed" data-typed-items= "Can the users effienciently look for the information they need after using our prototype?, Can the prototype clearly distinguish obstacles in each path?, Can the prototype be tested on any given terrain yielding efficient results?, Would the users be able to connect and run the setup successfully should there be a reassembly?, How easily can the prototype be worn by the prospective users"></span></p>
+            <span class = "introtext"> Post going through the initial requirements. I created a list of each member of the team came up with list of <span class="irqhighlight">initial research questions</span>. and compiled later.</span> </p>
+			<ul class="text-aria">
+              <li>Can the users effienciently look for the information they need after using our prototype?</li>
+              <li>Can the prototype clearly distinguish obstacles in each path?</li>
+              <li>Can the prototype be tested on any given terrain yielding efficient results?</li>
+              <li>Would the users be able to connect and run the setup successfully should there be a reassembly</a></li>
+			  <li>How easily can the prototype be worn by the prospective users?</li>
+			  
+            </ul>
 		  </div> 
     </section>
 	
 	<!-- End Requirements Details -->
 	
 	
-	<section>
+	<!-- <section>
       <div class="container" data-aos="fade-up">
           <h2><b>Whiteboarding</b></h2>
 		  <div class ="row">
@@ -169,7 +205,7 @@
 		  
 		  <div class="col-md-8">
 		  <p class="justified">
-            <span class = "researchtext"> Let us put ourselves in Santiago's shoes, shall we? The team enacted various scenarios involving individuals who are blind and running while coming up with different solutions in addition to the ones generated while whiteboarding.	</span> </p>
+            <span class = "researchtext"> Putting ourselves in the runners shoes, the team enacted various scenarios involving individuals who are blind and running while coming up with different solutions in addition to the ones generated while whiteboarding.</span> </p>
 		</div>
 		<div class ="col-md-4">
 		  <img src="assets/img/Personal/rolestorming.jpg" class="avatar3" alt="">
@@ -178,20 +214,15 @@
 		</div>
     </section>
 	
-	<section id="process">
-      <div class="container" data-aos="fade-up">
-          <h2 class="headingtitle"><b>The Process</b></h2>
-		  <img src="assets/img/Personal/DD.png" class ="avatar9" alt="">
-		  </div>
-    </section>
+	-->
 	
 	<section>
       <div class="container" data-aos="fade-up">
           <div>
-          <h2><b>Research</b></h2>
+          <h1 align="center"><b>User Research</b></h1>
           </div>
 		  <p class="justified">
-            <span class = "introtext"> To come up with a working prototype for Santiago, we had to go in depth about the subject, do some qualitative research and <span class="irqhighlight"> gain useful insights.</span>.</p>
+            <span class = "introtext"> To come up with a working prototype, we had to go in depth about the subject, do some qualitative research and <span class="irqhighlight"> gain useful insights.</span>.</p>
 			<h4><b>User Interviews </b></h4>
 			<div class ="row">
 			<div class ="col-md-4">
@@ -290,23 +321,19 @@
 		  <div class="col-md-4"> 
           </div>
 		  </div>
+		  </div>
 	</section>
 	
 	<section>
       <div class="container" data-aos="fade-up">
-	<h2 class="portfolio-title"><b>Getting back to Santiago, THE USP</b></h2>
-		  <div class ="row">
-		  <div class ="col-md-2">
-		  <img src="assets/img/Personal/avatar2.png" class="img-fluid avatar" alt="">
-          </div>
-		  <div class="col-md-10">
+	<h2 class="portfolio-title"><b>The Unique Selling Points</b></h2>
+		  
 		  <p class="justified">
             <span class = "introtext">We were ready to show Santiago the prototype. But what sets our prototype apart, and what makes it user oriented?  </span> </p>
 			<h4><span class="irqhighlight2"> Unique Selling Points  </span></h4>
 			<span class = "introtext"> This low cost device consists of a variety of sensors to offer a wider detection range. The output works on haptics and can be used by deaf-blind people as well. The users do not have to spend money on devices that are expensive and bear only one sensor as this prototype is a handy alternative.  </span> </p>
           </div>
 		</div>
-        </div>
     </section><!-- End Portfolio Details -->
 	
 	
