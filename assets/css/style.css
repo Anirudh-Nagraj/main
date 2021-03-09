@@ -165,7 +165,7 @@ h1, h2, h3, h4, h5, h6 {
   transition: 0.3s;
   font-size: 15px;
   border-radius: 50px;
-  background: #f2f3f5;
+  background: #a0a0a0;
   height: 56px;
   width: 100%;
   overflow: hidden;
@@ -1369,13 +1369,13 @@ margin:auto;
 }
 
 blockquote {
-	font-size: 1rem;
-	max-width: 600px;
+	font-size: 1.25rem;
+	max-width: auto;
 	line-height: 1.4;
 	position: relative;
 	margin: 0;
 	padding: .5rem;
-	color:#72A0C1;
+	color:#65000b ;
 	font-weight:200px;
 	font-family: Lobster, cursive !important;
 	
@@ -1413,7 +1413,8 @@ display:flex;
 
 .uppermargin
 {
-	padding-top:50px;
+	padding-top:60px;
+	margin-top:50px;
 }
 
 .researchtext1
@@ -1441,6 +1442,11 @@ display:flex;
 margin:auto;
 }
 
+.tabspacing
+{
+	padding-left:3em;
+}
+
 .avatar7
 {
 	width:90%;
@@ -1453,16 +1459,23 @@ margin:auto;
 
 .listitems
 {
-	color:#fff;
-	font-size:24px;
+	color:#000;
+	font-size:20px;
 }
 
-#insights
+
+#methods
 {
-	background-color:#8DB6CD;
-	font-family:'SF Pro Display';
+	background-color:#f3f3f3;
 }
 
+
+
+
+#evaluation
+{
+	background-color:#f3f3f3;
+}
 .avatar8
 {
 	width:90%;
@@ -1651,5 +1664,10 @@ margin-left:60px;
 	font-weight: 700;
   font-size: 26px;
   color: #728394;
+}
+
+.bg-transparent
+{
+	background-color: transparent !important;
 }
 
