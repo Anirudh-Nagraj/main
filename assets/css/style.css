@@ -1666,8 +1666,14 @@ margin-left:60px;
   color: #728394;
 }
 
-.bg-transparent
+.navbar-default
 {
-	background-color: transparent !important;
+	background: none !important;
+  	border: none;
 }
 
+.center
+{
+	margin: 0 auto;
+	display:block;
+}
