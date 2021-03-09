@@ -298,6 +298,7 @@ h1, h2, h3, h4, h5, h6 {
   display;block;
   margin-top:-100px;
   background-color:#fff381;
+  z-index: -1;
 }
 
 @media (min-width: 992px) {
