@@ -295,6 +295,8 @@ h1, h2, h3, h4, h5, h6 {
   background: url("/assets/img/Personal/Prototype.jpg") top right no-repeat; 
   background-size: cover;
   position: relative;
+  display;block;
+  margin-top:-100px;
   background-color:#fff381;
 }
 
