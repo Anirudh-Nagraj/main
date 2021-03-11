@@ -433,7 +433,53 @@ h1, h2, h3, h4, h5, h6 {
   letter-spacing: 1px;
 }
 
+#hero-page4 {
+  width: 100%;
+  height: 100vh;
+  background: url("/assets/img/Personal/Homepage.png") top right no-repeat; 
+  background-size: cover;
+  position: relative;
+  display;block;
+  margin-top:-100px;
+  background-color:#fff381;
+  z-index: -1;
+}
 
+@media (min-width: 992px) {
+  #hero-page4 {
+    padding-left: 160px;
+  }
+}
+
+#hero-page4:before {
+  content: "";
+  background: rgba(255, 255, 255, 0.8);
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+#hero-page4 h1 {
+  margin: 0;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 56px;
+  color: #45505b;
+}
+
+#hero-page4 p {
+  color: #45505b;
+  margin: 15px 0 0 0;
+  font-size: 26px;
+  font-family: "Poppins", sans-serif;
+}
+
+#hero-page4 p span {
+  color: #f9148a;
+  letter-spacing: 1px;
+}
 
 .social-links {
   margin-top: 20px;
@@ -603,8 +649,8 @@ section {
 
 .hr
 {
-	border-size:20px;
 }
+
 .skills .progress .skill .val {
   float: right;
   font-style: normal;
