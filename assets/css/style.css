@@ -1846,11 +1846,10 @@ margin-left:60px;
 	letter-spacing:1px;
 }
 
-.hover:hover {
-  background-color: #00688B;
-}
+.hover:hover 
 {
-	
+   text-decoration: underline;
 }
+
 
 	
