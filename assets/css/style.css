@@ -1468,7 +1468,7 @@ background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, F
 
 .whitecolor
 {
-	font-family: 'Roboto';
+	font-family: "Open Sans", sans-serif;
 	padding-left:20px;
 	color:#000;
 	font-weight: bold;
