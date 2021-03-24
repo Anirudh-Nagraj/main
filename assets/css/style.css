@@ -291,7 +291,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #hero-page {
   width: 100%;
-  height: 100vh;
+  height: 50vh;
   background: url("/assets/img/Personal/Prototype.jpg") top right no-repeat; 
   background-size: cover;
   position: relative;
@@ -319,7 +319,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #hero-page h1 {
   margin: 0;
-  font-size: 64px;
+  font-size: 40px;
   font-weight: 700;
   line-height: 56px;
   color: #45505b;
@@ -339,7 +339,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #hero-page2 {
   width: 100%;
-  height: 100vh;
+  height: 50vh;
   background: url("/assets/img/Personal/MockupFinal.png") top right no-repeat; 
   background-size: cover;
   position: relative;
@@ -367,7 +367,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #hero-page2 h1 {
   margin: 0;
-  font-size: 64px;
+  font-size: 40px;
   font-weight: 700;
   line-height: 56px;
   color: #45505b;
@@ -387,7 +387,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #hero-page3 {
   width: 100%;
-  height: 100vh;
+  height: 50vh;
   background: url("/assets/img/Personal/Homepage.png") top right no-repeat; 
   background-size: cover;
   position: relative;
@@ -415,7 +415,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #hero-page3 h1 {
   margin: 0;
-  font-size: 64px;
+  font-size: 40px;
   font-weight: 700;
   line-height: 56px;
   color: #45505b;
@@ -435,7 +435,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #hero-page4 {
   width: 100%;
-  height: 100vh;
+  height: 50vh;
   background: url("/assets/img/Personal/.png") top right no-repeat; 
   background-size: cover;
   position: relative;
@@ -463,7 +463,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #hero-page4 h1 {
   margin: 0;
-  font-size: 64px;
+  font-size: 40px;
   font-weight: 700;
   line-height: 56px;
   color: #45505b;
