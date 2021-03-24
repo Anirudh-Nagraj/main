@@ -271,7 +271,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #hero h1 {
   margin: 0;
-  font-size: 64px;
+  font-size: 40px;
   font-weight: 700;
   line-height: 56px;
   color: #45505b;
@@ -376,7 +376,7 @@ h1, h2, h3, h4, h5, h6 {
 #hero-page2 p {
   color: #45505b;
   margin: 15px 0 0 0;
-  font-size: 26px;
+  font-size: 14px;
   font-family: "Poppins", sans-serif;
 }
 
@@ -1564,8 +1564,8 @@ display:flex;
 
 .uppermargin
 {
-	padding-top:60px;
-	margin-top:50px;
+	padding-top:30px;
+	margin-top:25px;
 }
 
 .uppermargin2
@@ -1818,7 +1818,7 @@ margin-left:60px;
 
 .text-aria
 {
-	font-size:20px;
+	font-size:14px;
 }
 
 .header-aria
