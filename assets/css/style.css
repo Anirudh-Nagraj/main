@@ -250,7 +250,7 @@ h1, h2, h3, h4, h5, h6 {
   /*background: url("/assets/img/Personal/hero.png") top right no-repeat; */
   background-size: cover;
   position: relative;
-  background-color:#fff381;
+  background-color:#808080;
 }
 
 @media (min-width: 992px) {
@@ -297,7 +297,7 @@ h1, h2, h3, h4, h5, h6 {
   position: relative;
   display;block;
   margin-top:-100px;
-  background-color:#fff381;
+  background-color:#808080;
   z-index: -1;
 }
 
@@ -345,7 +345,7 @@ h1, h2, h3, h4, h5, h6 {
   position: relative;
   display;block;
   margin-top:-100px;
-  background-color:#fff381;
+  background-color:#808080;
   z-index: -1;
 }
 
@@ -393,7 +393,7 @@ h1, h2, h3, h4, h5, h6 {
   position: relative;
   display;block;
   margin-top:-100px;
-  background-color:#fff381;
+  background-color:#808080;
   z-index: -1;
 }
 
@@ -441,7 +441,7 @@ h1, h2, h3, h4, h5, h6 {
   position: relative;
   display;block;
   margin-top:-100px;
-  background-color:#fff381;
+  background-color:#808080;
   z-index: -1;
 }
 
@@ -1842,7 +1842,7 @@ margin-left:60px;
 
 .typed2
 {
-	color:#f9148a
+	color:#536895 !important;
 	letter-spacing:1px;
 }
 
