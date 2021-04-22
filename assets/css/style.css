@@ -193,7 +193,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .nav-menu a:hover, .nav-menu .active > a, .nav-menu li:hover > a {
   color: #fff;
-  background: #0563bb;
+  background: #ec4d37;
 }
 
 .nav-menu a:hover span, .nav-menu .active > a span, .nav-menu li:hover > a span {
@@ -250,7 +250,7 @@ h1, h2, h3, h4, h5, h6 {
   /*background: url("/assets/img/Personal/hero.png") top right no-repeat; */
   background-size: cover;
   position: relative;
-  background-color:#808080;
+  background-color:#234e70;
 }
 
 @media (min-width: 992px) {
@@ -261,7 +261,6 @@ h1, h2, h3, h4, h5, h6 {
 
 #hero:before {
   content: "";
-  background: rgba(255, 255, 255, 0.8);
   position: absolute;
   bottom: 0;
   top: 0;
@@ -274,30 +273,30 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 40px;
   font-weight: 700;
   line-height: 56px;
-  color: #45505b;
+  color: #f8f8be;
 }
 
 #hero p {
-  color: #45505b;
+  color: #f8f8be;
   margin: 15px 0 0 0;
   font-size: 26px;
   font-family: "Poppins", sans-serif;
 }
 
 #hero p span {
-  color: #f9148a;
+  color: #f8f8be;
   letter-spacing: 1px;
 }
 
 #hero-page {
   width: 100%;
   height: 50vh;
-  background: url("/assets/img/Personal/Prototype.jpg") top right no-repeat; 
+  /* background: url("/assets/img/Personal/Prototype.jpg") top right no-repeat; */ 
   background-size: cover;
   position: relative;
   display;block;
   margin-top:-100px;
-  background-color:#808080;
+  background-color:#f8f8be;
   z-index: -1;
 }
 
@@ -309,7 +308,6 @@ h1, h2, h3, h4, h5, h6 {
 
 #hero-page:before {
   content: "";
-  background: rgba(255, 255, 255, 0.8);
   position: absolute;
   bottom: 0;
   top: 0;
@@ -322,11 +320,11 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 40px;
   font-weight: 700;
   line-height: 56px;
-  color: #45505b;
+  color: #234e70;
 }
 
 #hero-page p {
-  color: #45505b;
+  color: #234e70;
   margin: 15px 0 0 0;
   font-size: 26px;
   font-family: "Poppins", sans-serif;
@@ -340,12 +338,12 @@ h1, h2, h3, h4, h5, h6 {
 #hero-page2 {
   width: 100%;
   height: 50vh;
-  background: url("/assets/img/Personal/MockupFinal.png") top right no-repeat; 
+  /* background: url("/assets/img/Personal/MockupFinal.png") top right no-repeat; */
   background-size: cover;
   position: relative;
   display;block;
   margin-top:-100px;
-  background-color:#808080;
+  background-color:#f8f8be;
   z-index: -1;
 }
 
@@ -357,7 +355,6 @@ h1, h2, h3, h4, h5, h6 {
 
 #hero-page2:before {
   content: "";
-  background: rgba(255, 255, 255, 0.8);
   position: absolute;
   bottom: 0;
   top: 0;
@@ -370,30 +367,30 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 40px;
   font-weight: 700;
   line-height: 56px;
-  color: #45505b;
+  color: #234e70;
 }
 
 #hero-page2 p {
-  color: #45505b;
+  color: #234e70;
   margin: 15px 0 0 0;
   font-size: 14px;
   font-family: "Poppins", sans-serif;
 }
 
 #hero-page2 p span {
-  color: #f9148a;
+  color: #234e70;
   letter-spacing: 1px;
 }
 
 #hero-page3 {
   width: 100%;
   height: 50vh;
-  background: url("/assets/img/Personal/Homepage.png") top right no-repeat; 
+  /* background: url("/assets/img/Personal/Homepage.png") top right no-repeat; */
   background-size: cover;
   position: relative;
   display;block;
   margin-top:-100px;
-  background-color:#808080;
+  background-color:#f8f8be;
   z-index: -1;
 }
 
@@ -405,7 +402,6 @@ h1, h2, h3, h4, h5, h6 {
 
 #hero-page3:before {
   content: "";
-  background: rgba(255, 255, 255, 0.9);
   position: absolute;
   bottom: 0;
   top: 0;
@@ -418,30 +414,29 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 40px;
   font-weight: 700;
   line-height: 56px;
-  color: #45505b;
+  color: #234e70;
 }
 
 #hero-page3 p {
-  color: #45505b;
+  color: #234e70;
   margin: 15px 0 0 0;
   font-size: 26px;
   font-family: "Poppins", sans-serif;
 }
 
 #hero-page3 p span {
-  color: #f9148a;
+  color: #234e70;
   letter-spacing: 1px;
 }
 
 #hero-page4 {
   width: 100%;
   height: 50vh;
-  background: url("/assets/img/Personal/.png") top right no-repeat; 
   background-size: cover;
   position: relative;
   display;block;
   margin-top:-100px;
-  background-color:#808080;
+  background-color:#f8f8be;
   z-index: -1;
 }
 
@@ -453,7 +448,6 @@ h1, h2, h3, h4, h5, h6 {
 
 #hero-page4:before {
   content: "";
-  background: rgba(255, 255, 255, 0.8);
   position: absolute;
   bottom: 0;
   top: 0;
@@ -466,18 +460,18 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 40px;
   font-weight: 700;
   line-height: 56px;
-  color: #45505b;
+  color: #234e70;
 }
 
 #hero-page4 p {
-  color: #45505b;
+  color: #234e70;
   margin: 15px 0 0 0;
   font-size: 26px;
   font-family: "Poppins", sans-serif;
 }
 
 #hero-page4 p span {
-  color: #f9148a;
+  color: #234e70;
   letter-spacing: 1px;
 }
 
@@ -1842,7 +1836,7 @@ margin-left:60px;
 
 .typed2
 {
-	color:#536895 !important;
+	color:#f8f8be !important;
 	letter-spacing:1px;
 }
 
