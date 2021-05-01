@@ -1829,13 +1829,13 @@ margin-left:60px;
 
 .navbar-default
 {
-	background: #a0a0a0 !important;
+	background: whitesmoke !important;
   	border: none;
 }
 
 .navbar-default1
 {
-	background: #a0a0a0 !important;
+	background: whitesmoke !important;
   	border: none;
 }
 .center
@@ -1874,7 +1874,7 @@ margin-left:60px;
 .custom-btn {
   width: 200px;
   height: 60px;
-  color: #fff !important;
+  color: #000 !important;
   border-radius: 5px;
   font-family: 'Poppins', sans-serif;
   font-weight: 500;
