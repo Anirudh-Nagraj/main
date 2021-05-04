@@ -182,5 +182,11 @@
     loop: true,
     items: 1
   });
+  
+  $('#expandbutton').click(function(){
+    $(this).text(function(i,old){
+        return old=='+' ?  '-' : '+';
+    });
+});
 
 })(jQuery);
