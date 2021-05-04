@@ -644,25 +644,26 @@ section {
   top: -25px;
   left: 50%;
   transform: translateX(-50%);
-  font-size: 24px;
-  background: #0563bb;
+  font-size: 36px;
+  background: #234e70; /* #0563bb */
   padding: 12px;
-  color: #fff;
+  color: #f8f8be /*#fff */;
   border-radius: 50px;
 }
 
 .facts .count-box span {
-  font-size: 36px;
+  font-size: 60px;
   display: block;
   font-weight: 600;
   color: #011426;
+  font-family: "Poppins", sans-serif;
 }
 
 .facts .count-box p {
   padding: 0;
   margin: 0;
-  font-family: "Raleway", sans-serif;
-  font-size: 20px;
+  font-family: "Poppins", sans-serif;
+  font-size: 24px;
 }
 
 /*--------------------------------------------------------------
@@ -1898,3 +1899,5 @@ margin-left:60px;
 .btn-1:hover {
    background: #a0a0a0 /* rgb(0,3,255); */
 }
+
+
