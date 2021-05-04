@@ -135,11 +135,6 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
-@media (min-width: 992px) {
-  #main {
-    margin-left: 100px;
-  }
-}
 
 /*--------------------------------------------------------------
 # Navigation Menu
@@ -253,11 +248,7 @@ h1, h2, h3, h4, h5, h6 {
   background-color:#234e70;
 }
 
-@media (min-width: 992px) {
-  #hero {
-    padding-left: 160px;
-  }
-}
+
 
 #hero:before {
   content: "";
@@ -269,20 +260,20 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #hero h1 {
-  margin: 0;
   font-size:60px;
   font-weight: 700;
   line-height: 56px;
   color: #f8f8be;
   margin-bottom:5px;
-  align-content:center !important;
+  text-align:center !important;
 }
 
 #hero p {
   color: #f8f8be;
-  margin: 15px 0 0 0;
+  margin: 30px 0 0 0;
   font-size: 26px;
   font-family: "Poppins", sans-serif;
+  text-align:center !important;
 }
 
 #hero p span {
@@ -301,11 +292,7 @@ h1, h2, h3, h4, h5, h6 {
   z-index: -1;
 }
 
-@media (min-width: 992px) {
-  #hero-page {
-    padding-left: 160px;
-  }
-}
+
 
 #hero-page:before {
   content: "";
@@ -322,6 +309,7 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 700;
   line-height: 56px;
   color: #f8f8be;
+  text-align:center !important;
 }
 
 #hero-page p {
@@ -347,11 +335,6 @@ h1, h2, h3, h4, h5, h6 {
   z-index: -1;
 }
 
-@media (min-width: 992px) {
-  #hero-page2 {
-    padding-left: 160px;
-  }
-}
 
 #hero-page2:before {
   content: "";
@@ -368,6 +351,7 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 700;
   line-height: 56px;
   color: #f8f8be;
+  text-align:center !important;
 }
 
 #hero-page2 p {
@@ -393,11 +377,7 @@ h1, h2, h3, h4, h5, h6 {
   z-index: -1;
 }
 
-@media (min-width: 992px) {
-  #hero-page3 {
-    padding-left: 160px;
-  }
-}
+
 
 #hero-page3:before {
   content: "";
@@ -414,6 +394,7 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 700;
   line-height: 56px;
   color: #f8f8be;
+  text-align:center !important;
 }
 
 #hero-page3 p {
@@ -438,11 +419,7 @@ h1, h2, h3, h4, h5, h6 {
   z-index: -1;
 }
 
-@media (min-width: 992px) {
-  #hero-page4 {
-    padding-left: 160px;
-  }
-}
+
 
 #hero-page4:before {
   content: "";
@@ -459,6 +436,7 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 700;
   line-height: 56px;
   color: #f8f8be;
+  text-align:center !important;
 }
 
 #hero-page4 p {
@@ -484,11 +462,6 @@ h1, h2, h3, h4, h5, h6 {
   z-index: -1;
 }
 
-@media (min-width: 992px) {
-  #about-page {
-    padding-left: 160px;
-  }
-}
 
 #about-page:before {
   content: "";
@@ -504,6 +477,7 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 700;
   line-height: 56px;
   color: #f8f8be;
+  text-align:center !important;
 }
 
 #about-page p {
@@ -1869,7 +1843,7 @@ margin-left:60px;
 
 .center
 {
-	align-items:center;
+	text-align:center;
 	
 }
 .custom-btn {
@@ -1884,8 +1858,6 @@ margin-left:60px;
   transition: all 0.3s ease;
   position: relative;
   display: inline-block;
-  justify-content: center;
-  align-items: center;
   margin:0;
   outline: none;
   margin-top:50px;
