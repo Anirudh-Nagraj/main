@@ -284,13 +284,8 @@ h1, h2, h3, h4, h5, h6 {
 #hero-page {
   width: 100%;
   height: 50vh;
-<<<<<<< HEAD
-  background: url("/assets/img/Personal/Prototype_main.jpeg") no-repeat;
-  background-size: cover;
-=======
   background: url("/assets/img/Personal/Prototype_main.jpeg") top right no-repeat;
   background-size: inherit;
->>>>>>> 3841a4d0c59eac58220cfd23d2b7c79b5063fde6
   position: relative;
   display;block;
   background-color:#234e70;
