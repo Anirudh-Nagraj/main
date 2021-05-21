@@ -378,7 +378,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #hero-page3 {
   width: 100%;
-  height: 50vh;
+  height: auto;
   background: url("/assets/img/Personal/COEIT1.png") top right no-repeat;
   background-size: cover;
   position: relative;
