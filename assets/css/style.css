@@ -380,7 +380,7 @@ h1, h2, h3, h4, h5, h6 {
   width: 100%;
   height: auto;
   background: url("/assets/img/Personal/COEIT1.png") top right no-repeat;
-  background-size: cover;
+  background-size: contain;
   position: relative;
   display:block;
   background-color:#234e70;
@@ -404,7 +404,7 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 40px;
   font-weight: 700;
   line-height: 56px;
-  color: #f8f8be;
+  color: #000;
   text-align:center !important;
 }
 
