@@ -378,12 +378,12 @@ h1, h2, h3, h4, h5, h6 {
 
 #hero-page3 {
   width: 100%;
-  height: auto;
-  background: url("/assets/img/Personal/COEIT1.png") top right no-repeat;
+  height: 50vh;
+  background: url("/assets/img/Personal/COEIT1.png") center no-repeat;
   background-size: auto;
   position: relative;
   display:block;
-  background-color:#234e70;
+  background-color:whitesmoke;
   z-index: -1;
 }
 
