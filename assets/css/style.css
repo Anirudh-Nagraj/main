@@ -302,7 +302,7 @@ h1, h2, h3, h4, h5, h6 {
   background: url("/assets/img/Personal/Prototype_main.jpeg") no-repeat;
   background-size: cover;
   position: relative;
-  display;block;
+  display:block;
   background-color:#000;
   z-index: -1;
 }
