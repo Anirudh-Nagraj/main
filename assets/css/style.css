@@ -305,7 +305,6 @@ h1, h2, h3, h4, h5, h6 {
   display;block;
   background-color:#000;
   z-index: -1;
-  background: rgba(204, 204, 204, 0.8);
 }
 
 
@@ -317,6 +316,7 @@ h1, h2, h3, h4, h5, h6 {
   top: 0;
   left: 0;
   right: 0;
+  background: rgba(0,0,0,0.7);
 }
 
 #hero-page h1 {
@@ -326,7 +326,6 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 56px;
   color: #fff;
   text-align:center !important;
-  opacity:1 !important;
 }
 
 #hero-page p {
