@@ -2396,5 +2396,5 @@ FIGMA CONTAINER
   top: 59px;
   left: 370px;
   display:block;
-  overflow-y:auto;
+  overflow-x:auto;
 }
