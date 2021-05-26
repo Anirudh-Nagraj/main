@@ -2260,21 +2260,35 @@ mark{
 /*FIGMA CONTAINER */
 
 .v21_6 {
-  width: 100%;
-  height: 412px;
-  display: inline-block;
+  width: 867px;
+  height: 374px;
+  background: url("../images/v21_6.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
   position: relative;
+  top: 0px;
+  left: 0px;
   overflow: hidden;
 }
 .v21_4 {
   width: 100%;
   height: 374px;
+  background: url("../images/v21_4.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
   opacity: 1;
-  position: absolute;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
 }
 .v21_3 {
-  width: 100%;
+  width: 867px;
   height: 374px;
+  background: url("../images/v21_3.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -2285,8 +2299,9 @@ mark{
   overflow: hidden;
 }
 .v19_8 {
-  width: 100%;
+  width: 867px;
   height: 374px;
+  background: url("../images/v19_8.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -2297,51 +2312,44 @@ mark{
   overflow: hidden;
 }
 .v19_1 {
-  width: auto;
+  width: 100%;
   height: 374px;
-  background: rgba(0,67,105,1);
+  background: rgba(191,191,191,1);
   opacity: 1;
   position: relative;
   top: 0px;
   left: 0px;
-  border-top-left-radius: 28px;
-  border-top-right-radius: 28px;
-  border-bottom-left-radius: 28px;
-  border-bottom-right-radius: 28px;
-  box-shadow: 0px 2.7457823753356934px 2px rgba(0, 0, 0, 0.25);
+  border-radius:25px;
 }
 .v19_3 {
-  width: 100%;
-  color: rgba(255,255,255,1);
+  width: 339px;
+  color: rgba(0,0,0,1);
   position: absolute;
-  top: 67px;
+  top: 56px;
   left: 56px;
   font-family: Helvetica;
   font-weight: Bold;
   font-size: 43px;
   opacity: 1;
   text-align: left;
-  border-top-left-radius: 28px;
-  border-top-right-radius: 28px;
-  border-bottom-left-radius: 28px;
-  border-bottom-right-radius: 28px;
 }
 .v19_4 {
-  width: 100%;
-  color: rgba(255,255,255,1);
+  width: 384px;
+  color: rgba(0,0,0,1);
   position: absolute;
-  top: 137px;
+  top: 126px;
   left: 56px;
   font-family: Source Sans Pro;
-  font-weight: 700px;
+  font-weight: Regular;
   font-size: 24px;
+  opacity: 1;
   text-align: left;
 }
 .v19_5 {
-  width: 100%;
-  color: rgba(255,255,255,1);
+  width: 328px;
+  color: rgba(0,0,0,1);
   position: absolute;
-  top: 224px;
+  top: 213px;
   left: 56px;
   font-family: Source Sans Pro;
   font-weight: Regular;
@@ -2352,7 +2360,7 @@ mark{
 .v19_7 {
   width: 178px;
   height: 52px;
-  background: rgba(147,149,152,1);
+  background: rgba(255,255,255,1);
   opacity: 1;
   position: absolute;
   top: 294px;
@@ -2377,13 +2385,15 @@ mark{
   text-align: left;
 }
 .v21_2 {
-  width: 600px;
-  height: 5vh;
-  background-image: url("/assets/img/Personal/prototype_color.png") no repeat center;
+  width: 498px;
+  height: 219px;
+  background: url("/assets/img/Personal/prototype_color.png");
+  background-repeat: no-repeat;
+  background-position: center center;
   background-size: cover;
   opacity: 1;
   position: absolute;
-  top: 71px;
-  left: 405px;
+  top: 59px;
+  left: 370px;
   overflow: hidden;
 }
