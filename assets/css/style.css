@@ -2386,7 +2386,7 @@ FIGMA CONTAINER
 }
 .v21_2 {
   width: auto;
-  height: 219px;
+  height: 150px;
   background: url("/assets/img/Personal/prototype_color.png");
   background-repeat: no-repeat;
   background-position: center;
@@ -2396,5 +2396,5 @@ FIGMA CONTAINER
   top: 59px;
   left: 370px;
   display:block;
-  overflow:auto;
+  overflow-y:auto;
 }
