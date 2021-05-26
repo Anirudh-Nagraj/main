@@ -2385,11 +2385,11 @@ FIGMA CONTAINER
   text-align: left;
 }
 .v21_2 {
-  width: 100%;
+  width: auto;
   height: 219px;
   background: url("/assets/img/Personal/prototype_color.png");
   background-repeat: no-repeat;
-  background-position: center center;
+  background-position: center;
   background-size: cover;
   opacity: 1;
   position: absolute;
