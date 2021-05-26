@@ -2257,38 +2257,24 @@ mark{
 }
 
 
-/*FIGMA CONTAINER
+/*FIGMA CONTAINER */
 
 .v21_6 {
   width: 100%;
   height: 412px;
-  background: url("../images/v21_6.png");
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  opacity: 1;
+  display: inline-block;
   position: relative;
-  top: 0px;
-  left: 0px;
   overflow: hidden;
 }
 .v21_4 {
   width: 100%;
   height: 374px;
-  background: url("../images/v21_4.png");
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
   opacity: 1;
   position: absolute;
-  top: 37px;
-  left: 33px;
-  overflow: hidden;
 }
 .v21_3 {
   width: 100%;
   height: 374px;
-  background: url("../images/v21_3.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -2301,7 +2287,6 @@ mark{
 .v19_8 {
   width: 100%;
   height: 374px;
-  background: url("../images/v19_8.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -2312,7 +2297,7 @@ mark{
   overflow: hidden;
 }
 .v19_1 {
-  width: 100%;
+  width: auto;
   height: 374px;
   background: rgba(0,67,105,1);
   opacity: 1;
@@ -2324,7 +2309,6 @@ mark{
   border-bottom-left-radius: 28px;
   border-bottom-right-radius: 28px;
   box-shadow: 0px 2.7457823753356934px 2px rgba(0, 0, 0, 0.25);
-  overflow: hidden;
 }
 .v19_3 {
   width: 100%;
@@ -2406,17 +2390,3 @@ mark{
   left: 405px;
   overflow: hidden;
 }
-.v21_5 {
-  width: 159px;
-  color: rgba(0,0,0,1);
-  position: relative;
-  top: 0px;
-  left: 0px;
-  font-family: Helvetica;
-  font-weight: Bold;
-  font-size: 87px;
-  opacity: 1;
-  text-align: left;
-}
-
- */
