@@ -2333,9 +2333,8 @@ mark{
   top: 137px;
   left: 56px;
   font-family: Source Sans Pro;
-  font-weight: Regular;
+  font-weight: 700px;
   font-size: 24px;
-  opacity: 1;
   text-align: left;
 }
 .v19_5 {
@@ -2378,11 +2377,10 @@ mark{
   text-align: left;
 }
 .v21_2 {
-  width: 409px;
-  height: 179px;
-  background: url("/assets/img/Personal/prototype_color.png");
-  background-repeat: no-repeat;
-  background-position: center center;
+  width: 600px;
+  height: auto;
+  background: url("/assets/img/Personal/prototype_color.png") no repeat center;
+
   background-size: cover;
   opacity: 1;
   position: absolute;
