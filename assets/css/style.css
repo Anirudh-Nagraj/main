@@ -2257,7 +2257,7 @@ mark{
 }
 
 
-/*FIGMA CONTAINER
+FIGMA CONTAINER
 
 .v21_6 {
   width: 100%;
@@ -2396,4 +2396,5 @@ mark{
   top: 59px;
   left: 370px;
   display:block;
+  overflow:auto;
 }
