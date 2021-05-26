@@ -2378,9 +2378,8 @@ mark{
 }
 .v21_2 {
   width: 600px;
-  height: auto;
+  height: 5vh;
   background: url("/assets/img/Personal/prototype_color.png") no repeat center;
-
   background-size: cover;
   opacity: 1;
   position: absolute;
