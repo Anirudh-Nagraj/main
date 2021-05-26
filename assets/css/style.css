@@ -2260,7 +2260,7 @@ mark{
 /*FIGMA CONTAINER */
 
 .v21_6 {
-  width: 867px;
+  width: 100%;
   height: 374px;
   background: url("../images/v21_6.png");
   background-repeat: no-repeat;
@@ -2286,7 +2286,7 @@ mark{
   overflow: hidden;
 }
 .v21_3 {
-  width: 867px;
+  width: 100%;
   height: 374px;
   background: url("../images/v21_3.png");
   background-repeat: no-repeat;
@@ -2299,7 +2299,7 @@ mark{
   overflow: hidden;
 }
 .v19_8 {
-  width: 867px;
+  width: 100%;
   height: 374px;
   background: url("../images/v19_8.png");
   background-repeat: no-repeat;
@@ -2322,7 +2322,7 @@ mark{
   border-radius:25px;
 }
 .v19_3 {
-  width: 339px;
+  width: 100%;
   color: rgba(0,0,0,1);
   position: absolute;
   top: 56px;
@@ -2334,7 +2334,7 @@ mark{
   text-align: left;
 }
 .v19_4 {
-  width: 384px;
+  width: 100%;
   color: rgba(0,0,0,1);
   position: absolute;
   top: 126px;
@@ -2346,7 +2346,7 @@ mark{
   text-align: left;
 }
 .v19_5 {
-  width: 328px;
+  width: 100%;
   color: rgba(0,0,0,1);
   position: absolute;
   top: 213px;
@@ -2373,7 +2373,7 @@ mark{
   overflow: hidden;
 }
 .v19_6 {
-  width: 139px;
+  width: 100%;
   color: rgba(0,0,0,1);
   position: absolute;
   top: 304px;
@@ -2385,7 +2385,7 @@ mark{
   text-align: left;
 }
 .v21_2 {
-  width: 498px;
+  width: 100%;
   height: 219px;
   background: url("/assets/img/Personal/prototype_color.png");
   background-repeat: no-repeat;
@@ -2395,5 +2395,5 @@ mark{
   position: absolute;
   top: 59px;
   left: 370px;
-  overflow: hidden;
+  display:block;
 }
