@@ -28,6 +28,13 @@ p{
 
 }
 
+.paragraph2
+{
+  font-size:20px;
+  line-height: 25px;
+  font-family: "Helvetica", sans-serif;
+}
+
 .paragraph
 {
   font-size:20px;
@@ -1564,7 +1571,7 @@ blockquote {
 	padding: .5rem;
 	color:#65000b ;
 	font-weight:200px;
-	font-family: Lobster, cursive !important;
+	font-family: 'Poppins', sans-serif;
 
 }
 
@@ -1805,6 +1812,15 @@ margin-left:60px;
 
 	align-content:center  !important;
 }
+
+.avatar14
+{
+	padding-top:10px;
+	width:400px;
+	height:400px;
+	overflow:hidden;
+  border-radius:5%;
+}
 .zoom:hover {
   transform: scale(1.2);  /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
 }
@@ -1812,6 +1828,12 @@ margin-left:60px;
 .text-aria
 {
 	font-size:14px;
+}
+
+.text-aria2
+{
+	font-size:18px;
+  font-family: "Raleway", sans-serif;
 }
 
 .header-aria
@@ -1868,9 +1890,9 @@ margin-left:60px;
 .custom-btn {
   width: 200px;
   height: 50px;
-  color: #000 !important;
+  color: #fff !important;
   border-radius: 5px;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-weight: 500;
   background: transparent;
   cursor: pointer;
@@ -1879,20 +1901,20 @@ margin-left:60px;
   display: inline-block;
   outline: none;
   margin-top:50px;
-  box-shadow: 0 0 5px #4B9CD3;
--moz-box-shadow: 0 0 5px #4B9CD3;
--webkit-box-shadow: 0 0 5px #4B9CD3;
--o-box-shadow: 0 0 5px #4B9CD3;
+  box-shadow: 0 0 5px #004687;
+-moz-box-shadow: 0 0 5px #004687;
+-webkit-box-shadow: 0 0 5px #004687;
+-o-box-shadow: 0 0 5px #004687;
 }
 
 /* 1 */
 .btn-1 {
-  background: #fff; /* rgb(6,14,131); */
-  border: 2px solid #4B9CD3;
+  background: #004687; /* rgb(6,14,131); */
+  border: 2px solid #004687;
 }
 .btn-1:hover {
-   background: #4B9CD3; /* rgb(0,3,255); */
-   color: #fff !important;
+   background:#AFDBF5; /* rgb(0,3,255); */
+   color: #000 !important;
 }
 
 .background
@@ -1909,7 +1931,7 @@ margin-left:60px;
 
 .textbackground2
 {
-  color: #FFD700;
+  color:#0CAFFF;  /* #FFD700; */
 }
 
 .textbackground3
@@ -2157,7 +2179,7 @@ margin-left:60px;
 .project-title
 {
   text-decoration: underline;
-  text-decoration-color:#FFD700;
+  text-decoration-color:#004687;
 }
 
 .navbar-toggler
@@ -2188,18 +2210,18 @@ mark{
   margin:50px auto;
   font-family:Open Sans;
   font-style:italic;
-  color: #555555;
+  color: #fff;
   padding:1.2em 30px 1.2em 75px;
-  border-left:8px solid #78C0A8 ;
+  border-left:8px solid #ffd600 ;
   line-height:1.6;
   position: relative;
-  background:#EDEDED;
+  background:#000;
 }
 
 .otro-blockquote::before{
-  font-family:Arial;
+  font-family: 'Poppins', sans-serif;
   content: "\201C";
-  color:#78C0A8;
+  color:#FFd600;
   font-size:4em;
   position: absolute;
   left: 10px;
@@ -2221,7 +2243,7 @@ mark{
 
 .containerblue
 {
-  background-color:#343434;
+  background-color:#a2a2a2;
   border-radius:10px;
 }
 
@@ -2235,7 +2257,7 @@ mark{
 
 .color-x
 {
-  color:#FFd600;
+  color:#004687;
   font-family:"Source Sans Pro", sans-serif;
 }
 
@@ -2256,11 +2278,11 @@ mark{
 .color-y
 {
   border-radius:10px;
-  background-color:#f5f5f5;
-  box-shadow: 0 0 2px rgba(0,0,0,0.6);
--moz-box-shadow: 0 0 2px rgba(0,0,0,0.6);
--webkit-box-shadow: 0 0 2px rgba(0,0,0,0.6);
--o-box-shadow: 0 0 2px rgba(0,0,0,0.6);
+  background-color:#f7f7f7;
+  box-shadow: 0 0 4px rgba(0,0,0,0.6);
+-moz-box-shadow: 0 0 4px rgba(0,0,0,0.6);
+-webkit-box-shadow: 0 0 4px rgba(0,0,0,0.6);
+-o-box-shadow: 0 0 4px rgba(0,0,0,0.6);
 }
 }
 
