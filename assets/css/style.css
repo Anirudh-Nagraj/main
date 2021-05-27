@@ -1913,8 +1913,9 @@ margin-left:60px;
   border: 2px solid #004687;
 }
 .btn-1:hover {
-   background:#AFDBF5; /* rgb(0,3,255); */
-   color: #000 !important;
+   background:#000; /* rgb(0,3,255); */
+   color: #fff !important;
+   border: 2px solid #000;
 }
 
 .background
@@ -2278,7 +2279,7 @@ mark{
 .color-y
 {
   border-radius:10px;
-  background-color:#f7f7f7;
+  background-color:#B9D9EB;
   box-shadow: 0 0 4px rgba(0,0,0,0.6);
 -moz-box-shadow: 0 0 4px rgba(0,0,0,0.6);
 -webkit-box-shadow: 0 0 4px rgba(0,0,0,0.6);
