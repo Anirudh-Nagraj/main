@@ -1540,12 +1540,12 @@ background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, F
 	overflow:hidden;
 }
 
-.researchtext
+.avatar15
 {
-	display: flex;
-  align-items: center;
-	font-size:20px;
-	margin-top:100px;
+  background: url("/assets/img/Personal/Prototype_main.jpeg") no-repeat;
+	overflow:hidden;
+  background-size: cover;
+  position: relative;
 }
 
 
@@ -1597,13 +1597,7 @@ text-align:center;
 display:flex;
 }
 
-.researchtext2
-{
-	display: flex;
-  align-items: center;
-	font-size:18px;
-	margin-top:80px;
-}
+
 
 .uppermargin
 {
@@ -1655,11 +1649,6 @@ margin:auto;
 	padding-bottom:20px;
 }
 
-.listitems
-{
-	color:#000;
-	font-size:20px;
-}
 
 
 #methods
@@ -1674,6 +1663,7 @@ margin:auto;
 {
 	background-color:#f3f3f3;
 }
+
 .avatar8
 {
 	width:90%;
@@ -1747,13 +1737,6 @@ margin:auto;
 	color:#fff;
 	margin-left:40px;
 	padding-top:40px;
-}
-
-.introtext3
-{
-	vertical-align:middle;
-	font-size:14px;
-	margin-top:20px;
 }
 
 
