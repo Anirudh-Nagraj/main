@@ -1542,7 +1542,7 @@ background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, F
 
 .avatar15
 {
-  background: url("/assets/img/Personal/Prototype_main.jpeg") no-repeat;
+  background: url("assets/img/Personal/Discussion 2.jpg") no-repeat;
 	overflow:hidden;
   background-size: cover;
   position: relative;
