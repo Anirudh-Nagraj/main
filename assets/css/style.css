@@ -30,9 +30,19 @@ p{
 
 .paragraph2
 {
-  font-size:20px;
+  font-size:16px;
   line-height: 25px;
-  font-family: "Helvetica", sans-serif;
+  font-family: "Poppins", sans-serif;
+  font-weight:500;
+}
+
+.paragraph3
+{
+  font-size:20px !important;
+  line-height: 25px !important;
+  font-family: "Poppins", sans-serif !important;
+  font-weight:500 !important;
+  color:#fff !important;
 }
 
 .paragraph
@@ -524,20 +534,19 @@ h1, h2, h3, h4, h5, h6 {
 
 .social-links {
   margin-top: 20px;
-  text-align:center;
 }
 
 .social-links a {
-  font-size: 36px;
+  font-size: 30px;
   display: inline-block;
-  color: #45505b;
+  color: #0CAFFF  ;
   line-height: 1;
   margin-right: 20px;
   transition: 0.3s;
 }
 
 .social-links a:hover {
-  color: #0563bb;
+  color:#66023c;
 }
 
 @media (max-width: 992px) {
@@ -1370,7 +1379,7 @@ background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, F
 #footer {
   background: #000;
   color: #fff;
-  font-size: 14px;
+  font-size: 18px;
   text-align: center;
   padding: 30px 0;
 }
@@ -1385,8 +1394,8 @@ background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, F
 }
 
 #footer p {
-  font-size: 15;
-  font-style: italic;
+  font-size: 18px;
+  text-decoration: bold;
   padding: 0;
   margin: 0 0 40px 0;
 }
@@ -1395,8 +1404,18 @@ background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, F
   margin: 0 0 40px 0;
 }
 
+#footer .social-links a{
+  font-size: 30px;
+  display: inline-block;
+  color: #0CAFFF  ;
+  line-height: 1;
+  margin-right: 20px;
+  transition: 0.3s;
+}
+
+/*
 #footer .social-links a {
-  font-size: 18px;
+  font-size: 20px;
   display: inline-block;
   background: #7AC5CD;
   color: #fff;
@@ -1416,12 +1435,19 @@ background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, F
   text-decoration: none;
 }
 
+*/
+#footer .social-links a:hover
+{
+  color:#66023c;
+  }
+
+
 #footer .copyright {
   margin: 0 0 5px 0;
 }
 
 #footer .credits {
-  font-size: 13px;
+  font-size: 18px;
 }
 
 /* Justification of text */
@@ -1501,10 +1527,8 @@ background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, F
 
 .avatar2
 {
-	width:auto;
+	width:100%;
 	height:200px;
-	vertical-align:middle;
-	margin-left:100px;
 }
 
 .light
@@ -1550,8 +1574,9 @@ background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, F
 
 
 .avatar4
-{align-items:center;
-width:50%;
+{
+align-items:center;
+width:20%;
 display:block;
 margin:auto !important;
 }
@@ -1628,7 +1653,7 @@ display:flex;
 
 .avatar6
 {
-width:30%;
+width:20%;
 align-content:center;
 display:flex;
 margin:auto;
@@ -1816,7 +1841,7 @@ margin-left:60px;
 .text-aria2
 {
 	font-size:18px;
-  font-family: "Raleway", sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 .header-aria
@@ -1870,11 +1895,45 @@ margin-left:60px;
 	text-align:center;
 
 }
+/*Read more for the projects */
+
+.custom-btn1 {
+  width: 200px;
+  height: 50px;
+  color: #fff !important;
+  border-radius: 30px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  background: transparent;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  outline: none;
+  margin-top:50px;
+}
+
+.btn-2 {
+  background: #FF0B4D; /* rgb(6,14,131); */
+  border: 2px solid #DA0942;
+}
+.btn-2:hover {
+   background:#3E0212; /* rgb(0,3,255); */
+   color: #fff !important;
+   border: 2px solid #3E0212 !important;
+   box-shadow: 0 0 5px #3E0212;
+ -moz-box-shadow: 0 0 5px #3E0212;
+ -webkit-box-shadow: 0 0 5px #3E0212;
+ -o-box-shadow: 0 0 5px #3E0212;
+}
+
+/*Read more for the main */
+
 .custom-btn {
   width: 200px;
   height: 50px;
   color: #fff !important;
-  border-radius: 5px;
+  border-radius: 30px;
   font-family: 'Raleway', sans-serif;
   font-weight: 500;
   background: transparent;
@@ -1898,7 +1957,11 @@ margin-left:60px;
 .btn-1:hover {
    background:#000; /* rgb(0,3,255); */
    color: #fff !important;
-   border: 2px solid #000;
+   border: 2px solid #000 !important;
+   box-shadow: 0 0 5px #000;
+ -moz-box-shadow: 0 0 5px #000;
+ -webkit-box-shadow: 0 0 5px #000;
+ -o-box-shadow: 0 0 5px #000;
 }
 
 .background
@@ -1931,7 +1994,8 @@ margin-left:60px;
 
 .bottompadding
 {
-  padding-bottom:30px;
+  padding-bottom:50px;
+  margin-bottom:25px;
 }
 
 .background2
@@ -2236,7 +2300,7 @@ mark{
 .uppermargin3
 {
   padding-top:50px;
-  margin-top:25px;
+  margin-top:30px;
 }
 
 .color-x
@@ -2277,4 +2341,11 @@ mark{
   align-items: center !important;
 
 position: relative;
+}
+
+.alignment
+{
+  display: flex;
+ justify-content: center;
+ align-items: center;
 }
