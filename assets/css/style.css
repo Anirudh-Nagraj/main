@@ -1900,7 +1900,7 @@ margin-left:60px;
 .custom-btn1 {
   width: 200px;
   height: 50px;
-  color: #fff !important;
+  color: #000 !important;
   border-radius: 30px;
   font-family: 'Poppins', sans-serif;
   font-weight: 500;
@@ -1914,17 +1914,17 @@ margin-left:60px;
 }
 
 .btn-2 {
-  background: #FF0B4D; /* rgb(6,14,131); */
-  border: 2px solid #DA0942;
+  background: #b2d8d8; /* rgb(6,14,131); */
+  border: 2px solid #b2d8d8;
 }
 .btn-2:hover {
-   background:#3E0212; /* rgb(0,3,255); */
+   background:#004c4c; /* rgb(0,3,255); */
    color: #fff !important;
-   border: 2px solid #3E0212 !important;
-   box-shadow: 0 0 5px #3E0212;
- -moz-box-shadow: 0 0 5px #3E0212;
- -webkit-box-shadow: 0 0 5px #3E0212;
- -o-box-shadow: 0 0 5px #3E0212;
+   border: 2px solid #004c4c !important;
+   box-shadow: 0 0 5px #004c4c;
+ -moz-box-shadow: 0 0 5px #004c4c;
+ -webkit-box-shadow: 0 0 5px #004c4c;
+ -o-box-shadow: 0 0 5px #004c4c;
 }
 
 /*Read more for the main */
