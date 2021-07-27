@@ -1564,11 +1564,14 @@ background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, F
 {
 	font-family: "Poppins", sans-serif;
 	padding-left:20px;
-	color:#a0a0a0;
+	color:#aeaeae;
 	font-weight: bold;
 }
 
-
+.whitecolor:hover
+{
+  color:#fefefe !important;
+}
 .navcolor
 {
 	font-family: "Open Sans", sans-serif;
@@ -1880,7 +1883,7 @@ margin-left:60px;
 
 .navbar-default1
 {
-	background: #000 !important;
+	background: #313131 !important;
   	border: none;
 }
 .center
