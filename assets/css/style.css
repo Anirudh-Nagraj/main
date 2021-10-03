@@ -1397,7 +1397,7 @@ background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, F
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  background: #333333;
+  background: #333;
   color: #fff;
   font-size: 18px;
   text-align: center;
@@ -1487,12 +1487,6 @@ background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, F
   display:block;
 }
 
-.introtext
-{
-	vertical-align:middle;
-	font-size:18px;
-	margin-top:20px;
-}
 
 .prototype-introduction
 {
@@ -1595,7 +1589,7 @@ margin:auto !important;
   margin-right:30px
 }
 
-blockquote {
+.blockquote {
 	font-size: 1rem;
 	max-width: auto;
 	line-height: 1.4;
@@ -1610,13 +1604,13 @@ blockquote {
 
 
 
-blockquote:before {
+.blockquote:before {
 	content: '“';
 	left: -5rem;
 	top: -2rem;
 }
 
-blockquote:after {
+.blockquote:after {
 	content: '”';
 	right: -5rem;
 	bottom: 1rem;
@@ -1940,7 +1934,8 @@ margin-left:60px;
 .custom-btn {
   width: 200px;
   height: 50px;
-  color: #fff !important;
+  color: #000 !important;
+  font-weight: 500 !important;
   border-radius: 30px;
   font-family: 'Raleway', sans-serif;
   font-weight: 500;
