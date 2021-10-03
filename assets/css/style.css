@@ -395,6 +395,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 
+
 #hero-page2:before {
   content: "";
   position: absolute;
@@ -1397,7 +1398,7 @@ background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, F
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  background: #333;
+  background: #000;
   color: #fff;
   font-size: 18px;
   text-align: center;
@@ -1458,7 +1459,7 @@ background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, F
 */
 #footer .social-links a:hover
 {
-  color:#fff;
+  color:#ffffff;
   }
 
 
@@ -1906,7 +1907,6 @@ margin-left:60px;
   border-radius: 30px;
   font-family: 'Raleway', sans-serif;
   font-weight: 500;
-  background: transparent;
   cursor: pointer;
   transition: all 0.3s ease;
   position: relative;
@@ -1920,7 +1920,7 @@ margin-left:60px;
   border: 2px solid #b2d8d8;
 }
 .btn-2:hover {
-   background:rgb(102,153,204); /* rgb(0,3,255); */
+   background: rgb(115,194,251); /*rgb(102,153,204); /* rgb(0,3,255); */
    color: #fff !important;
    border: 2px solid #004c4c !important;
    box-shadow: 0 0 5px #004c4c;
@@ -1934,22 +1934,21 @@ margin-left:60px;
 .custom-btn {
   width: 200px;
   height: 50px;
-  color: #000 !important;
+  color: #fff !important;
   font-weight: 500 !important;
   border-radius: 30px;
   font-family: 'Raleway', sans-serif;
   font-weight: 500;
-  background: transparent;
   cursor: pointer;
   transition: all 0.3s ease;
   position: relative;
   display: inline-block;
   outline: none;
   margin-top:50px;
-  box-shadow: 0 0 5px #004687;
--moz-box-shadow: 0 0 5px #004687;
--webkit-box-shadow: 0 0 5px #004687;
--o-box-shadow: 0 0 5px #004687;
+  box-shadow: 0 0 2.5px #b2d8d8;
+-moz-box-shadow: 0 0 2.5px #b2d8d8;
+-webkit-box-shadow: 0 0 2.5px #b2d8d8;
+-o-box-shadow: 0 0 2.5px #b2d8d8  /*#004687 */;
 }
 
 /* 1 */
@@ -2115,7 +2114,6 @@ mark{
 .containerblue
 {
   background-color:#f7f7f7;
-  border-radius:10px;
 }
 
 
