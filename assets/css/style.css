@@ -9,7 +9,7 @@
 # General
 --------------------------------------------------------------*/
 body {
-  font-family: "Poppins", sans-serif;
+  font-family: "Raleway", sans-serif;
   color: #272829;
 }
 
@@ -24,7 +24,7 @@ a:hover {
 
 p{
 
-    font-family: "Poppins", sans-serif;
+    font-family: "Raleway", sans-serif;
 
 }
 
@@ -32,26 +32,24 @@ p{
 {
   font-size:16px;
   line-height: 25px;
-  font-family: "Poppins", sans-serif;
+  font-family: "Raleway", sans-serif;
   font-weight:500;
 }
 
 .paragraph3
 {
-  font-size:28px !important;
+  font-size:26px !important;
   line-height: 40px !important;
-  font-family: "Poppins", sans-serif !important;
-  font-weight:500 !important;
-  color:#fff !important;
+  font-family: "Raleway", sans-serif !important;
+  color:#000 !important;
 }
 
 .paragraph4
 {
-  font-size:38px !important;
-  line-height: auto !important;
-  font-weight:700 !important;
+  font-size:36px !important;
+  line-height: 40px !important;
   color:#000 !important;
-  font-family: "Poppins", sans-serif;
+  font-family: "Raleway", sans-serif;
 }
 
 .paragraph6
@@ -68,11 +66,11 @@ p{
 {
   font-size:20px;
   line-height: 25px;
-  font-family: "Poppins", sans-serif;
+  font-family: "Raleway", sans-serif;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Poppins", sans-serif;
+  font-family: "Raleway", sans-serif;
 }
 
 /*--------------------------------------------------------------
@@ -289,15 +287,13 @@ h1, h2, h3, h4, h5, h6 {
 # Hero Section
 --------------------------------------------------------------*/
 
-/* hero 5 beginning */
-
 #hero {
   width: 100%;
   height: auto;
   /*background: url("/assets/img/Personal/hero.png") top right no-repeat; */
   background-size: cover;
   position: relative;
-  background-color:#000;
+  background-color:#fff;
   display:block;
   padding-bottom:100px;
 }
@@ -319,7 +315,7 @@ h1, h2, h3, h4, h5, h6 {
   font-size:60px;
   font-weight: 700;
   line-height: 56px;
-  color: #fff;
+  color: #000;
   margin-bottom:15px;
   font-family: "Raleway", sans-serif !important;
 }
@@ -328,7 +324,7 @@ h1, h2, h3, h4, h5, h6 {
   font-size:48px;
   font-weight: 700;
   line-height: 56px;
-  color: #fff;
+  color: #000;
   margin-bottom:15px;
   font-family: "Raleway", sans-serif !important;
 }
@@ -337,7 +333,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #fff;
   margin: 30px 0 0 0;
   font-size: 26px;
-  font-family: "Poppins", sans-serif;
+  font-family: "Raleway", sans-serif;
 }
 
 #hero p span {
@@ -352,7 +348,7 @@ h1, h2, h3, h4, h5, h6 {
   background-size: cover;
   position: relative;
   display:block;
-  background-color:#000;
+  background-color:#fff;
   z-index: -1;
 }
 
@@ -372,7 +368,7 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 40px;
   font-weight: 700;
   line-height: 56px;
-  color: #fff;
+  color: #000;
   text-align:center !important;
 }
 
@@ -380,7 +376,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #fff;
   margin: 15px 0 0 0;
   font-size: 26px;
-  font-family: "Poppins", sans-serif;
+  font-family: "Raleway", sans-serif;
 }
 
 #hero-page p span {
@@ -394,7 +390,7 @@ h1, h2, h3, h4, h5, h6 {
   background-size: cover;
   position: relative;
   display;block;
-  background-color:#000;
+  background-color:#fff;
   z-index: -1;
 }
 
@@ -413,19 +409,19 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 40px;
   font-weight: 700;
   line-height: 56px;
-  color: #fff;
+  color: #000;
   text-align:center !important;
 }
 
 #hero-page2 p {
-  color: #fff;
+  color: #000;
   margin: 15px 0 0 0;
   font-size: 14px;
-  font-family: "Poppins", sans-serif;
+  font-family: "Raleway", sans-serif;
 }
 
 #hero-page2 p span {
-  color: #fff;
+  color: #000;
   letter-spacing: 1px;
 }
 
@@ -436,7 +432,7 @@ h1, h2, h3, h4, h5, h6 {
   background-size: auto;
   position: relative;
   display:block;
-  background-color:#000;
+  background-color:#fff;
   z-index: -1;
 }
 
@@ -456,7 +452,7 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 40px;
   font-weight: 700;
   line-height: 56px;
-  color: #fff;
+  color: #000;
   text-align:center !important;
 }
 
@@ -464,7 +460,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #f8f8be;
   margin: 15px 0 0 0;
   font-size: 26px;
-  font-family: "Poppins", sans-serif;
+  font-family: "Raleway", sans-serif;
 }
 
 #hero-page3 p span {
@@ -474,11 +470,11 @@ h1, h2, h3, h4, h5, h6 {
 
 #hero-page4 {
   width: 100%;
-  height: 50vh;
+  height: 40vh;
   background-size: cover;
   position: relative;
   display:block;
-  background-color:#000;
+  background-color:#fff;
   z-index: -1;
 }
 
@@ -498,7 +494,7 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 40px;
   font-weight: 700;
   line-height: 56px;
-  color: #fff;
+  color: #000;
   text-align:center !important;
 }
 
@@ -506,22 +502,22 @@ h1, h2, h3, h4, h5, h6 {
   color: #fff;
   margin: 15px 0 0 0;
   font-size: 26px;
-  font-family: "Poppins", sans-serif;
+  font-family: "Raleway", sans-serif;
 }
 
 #hero-page4 p span {
-  color: #fff;
+  color: #000;
   letter-spacing: 1px;
 }
 
 
 #about-page {
   width: 100%;
-  height: 20vh;
+  height: 10vh;
   background-size: cover;
   position: relative;
   display;block;
-  background-color:#000;
+  background-color:#fff;
   z-index: -1;
   padding-top:50px;
 }
@@ -540,7 +536,7 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 40px;
   font-weight: 700;
   line-height: 56px;
-  color: #fff;
+  color: #000;
   text-align:center !important;
 }
 
@@ -548,7 +544,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #fff;
   margin: 15px 0 0 0;
   font-size: 26px;
-  font-family: "Poppins", sans-serif;
+  font-family: "Raleway", sans-serif;
 }
 
 #about-page p span {
@@ -693,13 +689,13 @@ section {
   display: block;
   font-weight: 600;
   color: #17a2b8;
-  font-family: "Poppins", sans-serif;
+  font-family: "Raleway", sans-serif;
 }
 
 .facts .count-box p {
   padding: 0;
   margin: 0;
-  font-family: "Poppins", sans-serif;
+  font-family: "Raleway", sans-serif;
   font-size: 24px;
 }
 
@@ -718,7 +714,7 @@ section {
   text-transform: uppercase;
   display: block;
   font-weight: 600;
-  font-family: "Poppins", sans-serif;
+  font-family: "Raleway", sans-serif;
   color: #45505b;
 }
 
@@ -765,7 +761,7 @@ section {
   font-size: 18px;
   font-weight: 600;
   text-transform: uppercase;
-  font-family: "Poppins", sans-serif;
+  font-family: "Raleway", sans-serif;
   color: #0563bb;
   margin-bottom: 10px;
 }
@@ -1401,7 +1397,7 @@ background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, F
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  background: #000;
+  background: #333333;
   color: #fff;
   font-size: 18px;
   text-align: center;
@@ -1412,7 +1408,7 @@ background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, F
   font-size: 36px;
   font-weight: 700;
   position: relative;
-  font-family: "Poppins", sans-serif;
+  font-family: "Raleway", sans-serif;
   padding: 0;
   margin: 0 0 15px 0;
 }
@@ -1462,7 +1458,7 @@ background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, F
 */
 #footer .social-links a:hover
 {
-  color:#FFD700;
+  color:#fff;
   }
 
 
@@ -1480,22 +1476,7 @@ background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, F
 	text-align: justify;
 }
 
-.introbox
-{
-	width:100%;
-	background-color:#f3f3f3;
-	box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 4px 0 rgba(0, 0, 0, 0.19);
-	height:100%;
-	padding-bottom:20px;
-}
 
-.projectbox
-{
-	color:blue;
-	margin-top:-10px;
-	margin-right:10px;
-	text-align:center;
-}
 
 .avatar
 {
@@ -1565,15 +1546,15 @@ background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, F
 
 .whitecolor
 {
-	font-family: "Poppins", sans-serif;
+	font-family: "Raleway", sans-serif;
 	padding-left:20px;
-	color:#aeaeae;
+	color:#e7e7e7;
 	font-weight: bold;
 }
 
 .whitecolor:hover
 {
-  color:#fefefe !important;
+  color:#fff  !important;
 }
 .navcolor
 {
@@ -1623,7 +1604,7 @@ blockquote {
 	padding: .5rem;
 	color:#65000b ;
 	font-weight:200px;
-	font-family: 'Poppins', sans-serif;
+	font-family: 'Raleway', sans-serif;
 
 }
 
@@ -1868,7 +1849,7 @@ margin-left:60px;
 .text-aria2
 {
 	font-size:18px;
-  font-family: "Poppins", sans-serif;
+  font-family: "Raleway", sans-serif;
 }
 
 .header-aria
@@ -1880,13 +1861,13 @@ margin-left:60px;
 
 .navbar-default
 {
-	background: #313131 !important;
-  	border: none;
+	background: #333333 !important;
+  	border-bottom: 2px;
 }
 
 .navbar-default1
 {
-	background: #313131 !important;
+	background:  #333333 !important;
   	border: none;
 }
 .center
@@ -1929,7 +1910,7 @@ margin-left:60px;
   height: 50px;
   color: #000 !important;
   border-radius: 30px;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-weight: 500;
   background: transparent;
   cursor: pointer;
@@ -1945,7 +1926,7 @@ margin-left:60px;
   border: 2px solid #b2d8d8;
 }
 .btn-2:hover {
-   background:#004c4c; /* rgb(0,3,255); */
+   background:rgb(102,153,204); /* rgb(0,3,255); */
    color: #fff !important;
    border: 2px solid #004c4c !important;
    box-shadow: 0 0 5px #004c4c;
@@ -1978,13 +1959,13 @@ margin-left:60px;
 
 /* 1 */
 .btn-1 {
-  background: #004687; /* rgb(6,14,131); */
-  border: 2px solid #004687;
+  background: rgb(102,153,204) ; /* rgb(6,14,131); */
+  border: 2px solid rgb(102,153,204);
 }
 .btn-1:hover {
-   background:#000; /* rgb(0,3,255); */
+   background:#004687; /* rgb(0,3,255); */
    color: #fff !important;
-   border: 2px solid #000 !important;
+   border: 2px solid #004687 !important;
    box-shadow: 0 0 5px #000;
  -moz-box-shadow: 0 0 5px #000;
  -webkit-box-shadow: 0 0 5px #000;
@@ -2005,7 +1986,7 @@ margin-left:60px;
 
 .textbackground2
 {
-  color: #a16e83 /* #0CAFFF;   #FFD700; */
+  color:  #C70039 /* #a16e83  /*1F51FF  ;  #FFD700; */
 }
 
 .textbackground3
@@ -2114,7 +2095,7 @@ mark{
 }
 
 .otro-blockquote::before{
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Raleway', sans-serif;
   content: "\201C";
   color:#FFd600;
   font-size:4em;
@@ -2138,7 +2119,7 @@ mark{
 
 .containerblue
 {
-  background-color:whitesmoke;
+  background-color:#f7f7f7;
   border-radius:10px;
 }
 
@@ -2214,14 +2195,14 @@ position: relative;
   font-weight: 600;
   margin-bottom: 20px;
   font-size:60px;
-  font-family: "Poppins", sans-serif;
+  font-family: "Raleway", sans-serif;
 }
 .example-header p {
   font-size: 12px;
   text-transform: uppercase;
   letter-spacing: 3px;
   font-weight: 700;
-  font-family: "Poppins", sans-serif;
+  font-family: "Raleway", sans-serif;
 }
 
 .container-fluid .row {
@@ -2259,7 +2240,7 @@ position: relative;
 .timeline h1, .timeline h2, .timeline h3, .timeline h4, .timeline h5, .timeline h6 {
   line-height: inherit;
 
-  font-family: "Poppins", sans-serif;
+  font-family: "Raleway", sans-serif;
 }
 
 /*----- TIMELINE ITEM -----*/
@@ -2279,7 +2260,7 @@ position: relative;
   margin: 0 0 .5em 0;
   text-transform: uppercase;
   white-space: nowrap;
-  font-family: "Poppins", sans-serif;
+  font-family: "Raleway", sans-serif;
 }
 
 /*----- TIMELINE MARKER -----*/
@@ -2399,7 +2380,7 @@ position: relative;
 }
 
 .timeline-title{
-  font-family: "Poppins", sans-serif !important;
+  font-family: "Raleway", sans-serif !important;
 }
 
 /*----------------------------------------------
@@ -2473,10 +2454,10 @@ position: relative;
 
 .quotemarks {
   display: inline;
-  font-size: 1.5rem;
   line-height:1.5;
-  font-size:15px;
-  color:#004687;
+  font-size:15px !important;
+  color:#0437F2;
+  font-weight:500;
 }
 .blockquote-section {width:100%;max-width:1200px;margin:0 auto;opacity:0.95;padding:20px;}
 .blockquote-section > cite {font-style:none}
@@ -2484,8 +2465,17 @@ position: relative;
 
 
 .devicer {
-  width: 20em;
-  height: 1px;
-  background-color: #a0a0a0;
-  margin: 60px auto 0;
+  width: 40em;
+  height: 1.5px;
+  background-color: #A7C7E7;
+  margin: 30px auto 0;
 }
+
+.devicer2 {
+  width: 5em;
+  height: 5px;
+  background-color: #A7C7E7;
+  margin: 30px auto 0;
+}
+
+/*New */
