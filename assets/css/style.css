@@ -2474,40 +2474,17 @@ position: relative;
 }
 
 /*New */
-#prg-counter .prg-container{
-  text-align: center;
-  width: 80%;
-  margin: auto;
+.counter
+{
+    text-align: center;
 }
 
-#prg-head h1{
-  text-align: center;
-}
-
-#prg-counter h3.prg-count{
-  background-color: rgba(0, 0 ,0 ,0);
-  color: blue;
-  font-size: 2.5em;
-  padding: 20px 20px 6px 20px;
-  border: 0px solid black;
-}
-
-#prg-counter h3.prg-count::after {
-  content: " +";
-  display: inline-block;
-}
-
-/*#prg-counter h3.prg-count {
-  border: 5px solid blue;
-  border-radius: 50%;
-  width: 150px;
-  height: 150px;
-}*/
-
-
-
-#prg-counter h4.prg-count-title{
-  background-color: rgba(0, 0 ,0 ,0);
-  color: rgba(120, 120, 120, 1);
-  font-size: 1.6em;
+.counter-count
+{
+    font-size: 50px;
+    font-weight: bold;
+    position: relative;
+    color: blue;
+    text-align: center;
+    display: inline-block;
 }
