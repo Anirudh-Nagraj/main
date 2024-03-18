@@ -1,6 +1,6 @@
 ### Hi there 👋
 
-This has the contents of my website. Done using a bootstrap theme. Hope you enjoy it! thanks
+This has the contents of my portfolio.
 
 
 <!--
