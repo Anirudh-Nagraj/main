@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Testimonials</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Source+Serif+4:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="testimonial-carousel.css" />
+</head>
+<body>
+  <section class="testimonial-carousel" aria-label="Testimonials" tabindex="0">
+    <h2 class="testimonial-carousel__heading">What clients say</h2>
+    <div class="carousel-viewport">
+      <div class="carousel-track" role="group" aria-live="polite">
+        <article class="carousel-slide" aria-roledescription="slide" aria-label="1 of 3">
+          <div class="slide-inner">
+            <span class="slide-quote-mark" aria-hidden="true">&ldquo;</span>
+            <blockquote class="slide-quote">
+              The research sprint completely changed how we prioritize the roadmap. Clear, actionable, and genuinely collaborative from day one.
+            </blockquote>
+            <footer class="slide-footer">
+              <span class="slide-avatar" aria-hidden="true">MR</span>
+              <div class="slide-meta">
+                <cite class="slide-name">Maya Roberts</cite>
+                <span class="slide-role">Director of Product, Harbor Co.</span>
+              </div>
+            </footer>
+          </div>
+        </article>
+
+        <article class="carousel-slide" aria-roledescription="slide" aria-label="2 of 3">
+          <div class="slide-inner">
+            <span class="slide-quote-mark" aria-hidden="true">&ldquo;</span>
+            <blockquote class="slide-quote">
+              Finally a partner who speaks both design and engineering. Our accessibility audit was thorough without slowing the release train.
+            </blockquote>
+            <footer class="slide-footer">
+              <span class="slide-avatar" aria-hidden="true">JL</span>
+              <div class="slide-meta">
+                <cite class="slide-name">Jordan Lee</cite>
+                <span class="slide-role">Engineering Lead, Stacklight</span>
+              </div>
+            </footer>
+          </div>
+        </article>
+
+        <article class="carousel-slide" aria-roledescription="slide" aria-label="3 of 3">
+          <div class="slide-inner">
+            <span class="slide-quote-mark" aria-hidden="true">&ldquo;</span>
+            <blockquote class="slide-quote">
+              Workshops were structured but flexible. We left with artifacts we actually used in stakeholder reviews the same week.
+            </blockquote>
+            <footer class="slide-footer">
+              <span class="slide-avatar" aria-hidden="true">SK</span>
+              <div class="slide-meta">
+                <cite class="slide-name">Sam Kim</cite>
+                <span class="slide-role">UX Manager, Meridian Health</span>
+              </div>
+            </footer>
+          </div>
+        </article>
+      </div>
+    </div>
+
+    <div class="carousel-nav">
+      <button type="button" class="carousel-arrow carousel-prev" aria-label="Previous testimonial">
+        <span aria-hidden="true">&#8592;</span>
+      </button>
+      <div class="carousel-dots" role="tablist" aria-label="Slide navigation"></div>
+      <button type="button" class="carousel-arrow carousel-next" aria-label="Next testimonial">
+        <span aria-hidden="true">&#8594;</span>
+      </button>
+    </div>
+  </section>
+
+  <script src="testimonial-carousel.js"></script>
+</body>
+</html>
